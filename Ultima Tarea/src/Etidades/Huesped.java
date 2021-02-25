@@ -14,12 +14,14 @@ public class Huesped {
     private int telefono;
     private String nacionalidad;
     private int n_documento;
+    private String sexo;
 
-    public Huesped(String nombre_apellido, int telefono, String nacionalidad, int n_documento) {
+    public Huesped(String nombre_apellido, int telefono, String nacionalidad, int n_documento,String sexo) {
         this.nombre_apellido = nombre_apellido;
         this.telefono = telefono;
         this.nacionalidad = nacionalidad;
         this.n_documento = n_documento;
+        this.sexo = sexo;
     }
 
     public String getNombre_apellido() {
